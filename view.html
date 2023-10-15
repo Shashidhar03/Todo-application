@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link href="/style.css" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+    <script> 
+        $(function(){
+            $("#headerDiv").load("header.html");
+            $("#footerDiv").load("footer.html");
+        });  
+    </script>
+</head>
+<body>
+    
+    <div id="headerDiv"></div>
+    
+    <div class="container">
+        <div class="box">
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Todo list</p>
+            <p>✔️➖➖</p>
+            <p>✔️➖➖</p>
+            <p>✔️➖➖</p>
+        </div>
+         <div class="right"> 
+            <a href=/login><button >login</button></a>
+            <a href=/signup><button>signup</button></a>
+        </div>
+    </div>
+    
+    <div id="footerDiv"></div>
+    
+</body>
+</html>
